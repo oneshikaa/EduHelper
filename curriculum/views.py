@@ -7,7 +7,7 @@ from django.urls import reverse_lazy
 from .forms import CommentForm,ReplyForm, LessonForm
 from django.http import HttpResponseRedirect
 
-
+## This is the code that will be used to register the models in the admin panel
 
 class StandardListView(ListView):
     context_object_name = 'standards'
