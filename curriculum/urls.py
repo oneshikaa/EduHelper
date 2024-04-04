@@ -1,6 +1,6 @@
 from django.urls import path
 from . import views
-
+## This is the code that will be used to register the models in the admin panel
 app_name='curriculum'
 urlpatterns = [
     path('', views.StandardListView.as_view(), name='standard_list'),
