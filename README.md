@@ -1,5 +1,7 @@
 # EduHelper: Empowering Education through Collaboration
 
+<img src="screenshots/login_dashboard.png" alt="User Dashboard" width="700"/>
+
 ## Description:
 CloudEdu is a revolutionary cloud-based platform designed to revolutionize the way educators manage, share, and deliver educational content. With a suite of intuitive tools and features, CloudEdu aims to enhance collaboration, transparency, and engagement within the educational community. Whether you're a teacher, student, or parent, CloudEdu provides the infrastructure needed to streamline educational processes and foster meaningful interactions.
 
