@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 import os
 from django.urls import reverse
-
+## This is the function that will be used to rename the uploaded files
 def path_and_rename(instance, filename):
     upload_to = 'Images/'
     ext = filename.split('.')[-1]
