@@ -18,10 +18,11 @@ class UserForm(UserCreationForm):
         'password1':'Password',
         'password2':'Confirm Password'
         }
+        
 
 class UserProfileInfoForm(forms.ModelForm):
     bio = forms.CharField(required=False)
-    
+
     teacher = 'teacher'
     student = 'student'
     parent = 'parent'
