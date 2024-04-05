@@ -34,7 +34,7 @@ class LessonDetailView(DetailView, FormView):
     form_class = CommentForm
     second_form_class = ReplyForm
 
-
+##
     def get_context_data(self, **kwargs):
         context = super(LessonDetailView, self).get_context_data(**kwargs)
         if 'form' not in context:
