@@ -5,6 +5,7 @@ from django.contrib.auth.models import User
 import os
 
 
+
 class Standard(models.Model):
     name = models.CharField(max_length=100, unique=True)
     slug = models.SlugField(null=True, blank=True)
