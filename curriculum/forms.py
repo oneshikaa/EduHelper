@@ -17,6 +17,7 @@ class CommentForm(forms.ModelForm):
             'body': forms.Textarea(attrs={'class':'form-control', 'rows':4, 'cols':70, 'placeholder':"Enter Your Comment"}),
         }
 
+
 class ReplyForm(forms.ModelForm):
     class Meta:
         model = Reply
